@@ -3,16 +3,16 @@ import streamlit as st
 
 menuList= {
      "功能A": [
-                st.Page("pages/home.py" , title="Home",icon=":material/home:" ),
-                st.Page("pages/mycv.py" , title="我的履歷" ),  
-                st.Page("https://mymis168.github.io/myproject/" , title="github.io資訊" )                 
-            ],
+                st.Page("pages/home.py" , title="Home",icon=":material/home:" ),                
+                st.Page("pages/mycv.py" , title="我的履歷" ),
+                st.Page("https://mymis168.github.io/myproject/" , title="github.io資訊" )                
+              ],
       "專案列表": [
                 st.Page("pages/project1.py" , title="執行專案"),
                 st.Page("pages/project2.py" , title="執行專案2"),
                 st.Page("pages/myproject.py" , title="執行專案"),    
                 st.Page("https://github.com/mymis168" , title="github其他專題",icon=":material/merge:" )
-                  ]
+              ]
 }
 
 pageList=[
