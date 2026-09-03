@@ -8,10 +8,11 @@ menuList= {
                 st.Page("https://mymis168.github.io/myproject/" , title="github.io資訊" )                
               ],
       "專案列表": [
-                st.Page("pages/project1.py" , title="執行專案"),
+                st.Page("pages/myproject.py" , title="進入專案首頁",icon=":material/assignment:" ),    
+                st.Page("pages/project1.py" , title="執行專案1"),
                 st.Page("pages/project2.py" , title="執行專案2"),
-                st.Page("pages/myproject.py" , title="執行專案"),    
-                st.Page("https://github.com/mymis168" , title="github其他專題",icon=":material/merge:" )
+                
+                # st.Page("https://github.com/mymis168" , title="github其他專題",icon=":material/merge:" )
               ]
 }
 
